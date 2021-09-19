@@ -10,7 +10,6 @@
         --primary-background-color: #FFFFFF;
         --secondary-background-color: #2F303A;
         --btn-background-color: #F5F4FA;
-
     }
 
     body {
@@ -34,6 +33,9 @@
         border: none;
     }
 
+    .btn {
+        cursor: pointer;
+    }
 
     .section-title {
         font-weight: 700;
@@ -205,9 +207,33 @@
             font-size: 14px;
             line-height: 1.71;
             color: var(--footer-contacts-color)
-
         }
 
 
+
+
+    /*-------------------------!* Projects *!--------------------------*/
+
+
+        .projects-btn {
+            font-style: 400;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            text-align: center;
+            color: var(--secondary-text-color);
+            background-color: var(--btn-background-color);
+        }
+
+        .projects-btn:hover,
+        .projects-btn:focus {
+            color: var(--btn-text-color);
+            background-color: var(--accent-color);
+        }
+
+         .projects-btn-list .btn.current {
+             color: var(--btn-text-color);
+             background-color: var(--accent-color);
+    }
 
 
