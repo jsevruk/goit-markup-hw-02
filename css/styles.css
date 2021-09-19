@@ -203,8 +203,8 @@
             color: var(--third-text-color)
         }
 
-        .footer-address-link, .footer-contacts-link:hover,
-        .footer-address-link, .footer-contacts-link:focus {
+        .footer-address-link:hover, .footer-contacts-link:hover,
+        .footer-address-link:focus, .footer-contacts-link:focus {
             color: var(--accent-color);
         }
 
