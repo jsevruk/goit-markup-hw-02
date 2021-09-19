@@ -144,3 +144,32 @@
     }
 
 
+    /*-------------------------!* Team *!--------------------------*/
+
+
+    .team-title {
+        color: var(--primary-title-color);
+    }
+
+    .team-item-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        color: var(--primary-title-color);
+    }
+
+    .team-text-profession {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+
+    }
+
+
+
+
+
+
+
