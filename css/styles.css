@@ -9,6 +9,7 @@
         --accent-color: #2196F3;
         --primary-background-color: #FFFFFF;
         --secondary-background-color: #2F303A;
+        --third-background-color:#F5F4FA;
         --btn-background-color: #F5F4FA;
     }
 
@@ -149,6 +150,10 @@
     /*-------------------------!* Team *!--------------------------*/
 
 
+    .team {
+        background-color: var(--third-background-color);
+    }
+
     .team-title {
         color: var(--primary-title-color);
     }
@@ -214,9 +219,11 @@
 
     /*-------------------------!* Projects *!--------------------------*/
 
+    /*------------!* Projects btn *!------------*/
+
 
         .projects-btn {
-            font-style: 400;
+            font-style: inherit;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.62;
@@ -237,3 +244,19 @@
     }
 
 
+    /*------------!* Projects page *!------------*/
+
+
+    .projects-page-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--primary-title-color);
+    }
+
+    .projects-page-text {
+        font-size: 16px;
+        line-height: 1.87;
+        color: var(--primary-text-color);
+    }
