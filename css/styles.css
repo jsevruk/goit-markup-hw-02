@@ -1,4 +1,6 @@
     :root {
+        --secondary-logo-color: #000000;
+        --third-logo-color: #FFFFFF;
         --primary-title-color: #212121;
         --secondary-title-color: #FFFFFF;
         --primary-text-color: #757575;
@@ -15,6 +17,7 @@
 
     body {
         font-family: 'Roboto', sans-serif;
+        font-size: 14px;
         letter-spacing: 0.03em;
         background-color: var(--primary-background-color);
         color: var(--primary-text-color);
@@ -59,12 +62,11 @@
     }
 
     .header-logo-black {
-        color: #000000;
+        color: var(--secondary-logo-color);
     }
 
     .header-link {
         font-weight: 500;
-        font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--secondary-text-color);
@@ -81,7 +83,6 @@
 
     .header-contacts-link {
         font-weight: 500;
-        font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--primary-text-color);
@@ -126,14 +127,12 @@
 
     .preference-title {
         font-weight: 700;
-        font-size: 14px;
         line-height: 1.14;
         text-transform: uppercase;
         color: var(--primary-title-color);
     }
 
     .preference-text {
-        font-size: 14px;
         line-height: 1.71;
     }
 
@@ -190,7 +189,7 @@
         }
 
         .footer-logo-white {
-            color: var(--third-text-color);
+            color: var(--third-logo-color);
         }
 
         .footer-address {
@@ -198,7 +197,6 @@
         }
 
         .footer .footer-address-link {
-            font-size: 14px;
             line-height: 1.71;
             color: var(--third-text-color)
         }
@@ -209,7 +207,6 @@
         }
 
         .footer-contacts-link {
-            font-size: 14px;
             line-height: 1.71;
             color: var(--footer-contacts-color)
         }
